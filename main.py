@@ -38,6 +38,8 @@ for planilha in lista_planilhas:
     
     else:
 
+        # Determina a coluna que o arquivo vai ler
+      
         frases = data_frame['DESCRIPCION'].apply(str)
         
         # limpeza do descritivo
